@@ -24,3 +24,20 @@ true => 1; false => 0;
 "" => false
 "Tejashree" => true
 */
+//****************OPRATIONS**********************************
+
+let value = 3
+let negValue = -value
+
+console.log(negValue)
+console.log("hello"+" tejashree")
+
+console.log("1"+2) // op : 12
+console.log(1 + "2") // op: 12
+console.log("1" + 2 + 3) // op : 123
+console.log(1 + 2 + "3") // o/p : 33
+console.log(+true) // o/p : 1
+console.log(+"") // o/p : 0
+
+// link to study
+// https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion
