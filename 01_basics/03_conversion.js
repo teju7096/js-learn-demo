@@ -1,30 +1,26 @@
-"use strict"; //treat all JS code as newer Version
+//let score = "33abc"   // Value get NaN
+// let score = null     // Value get 0
+//let score = undefined //Value get NaN
+//let score = true      // Value get 1
+let score = "Tejashree" //Value get NaN
 
 
-// alert("Hello") // we are using node js not browser.. that alert only works in browser console.
+console.log(typeof score)
+console.log(typeof(score));
 
 
-console.log(3+3); console.log("Tejashree") // Code readability should be high
+let ValueInNumber = Number(score)
 
 
-let name = "Tejashree"
-let age = 25
-let is_log = false
+console.log(ValueInNumber)
+console.log(typeof(ValueInNumber))
 
 
-// number => 2 to power 53 // that store that range of memory
-// bigInt // that store more range or memory occupied data
-// string => ""
-// boolean => true/false
-// null => standalone value
-// undefined =>
-// symbol // unique value defined
-
-
-
-
-// object
-console.log(typeof"tejashree")
-console.log(typeof age);
-console.log(typeof undefined) // answer : undefined
-console.log(typeof null) // answer : object
+/*
+"33" => 33
+"33abc" => NaN
+true => 1; false => 0;
+1 => true; 0 => false;
+"" => false
+"Tejashree" => true
+*/
